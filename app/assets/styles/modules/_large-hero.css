@@ -1,0 +1,18 @@
+.large-hero {
+	position: relative;
+}
+
+.large-hero__text-content {
+	position: absolute; /* Allows text to be on top of image */
+	left: 0; /* Pins text to left side */
+
+	/* Centers the text horizontally
+	*******************************/
+	width: 100%;
+	text-align: center;
+
+	/* Centers the text vertically
+	*****************************/
+	top: 50%; /* Pins top edge of the text div vertically center */
+	transform: translateY(-50%); /* Pulls text content up half of its own height for centering effect */
+}
