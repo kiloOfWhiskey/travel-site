@@ -369,5 +369,58 @@ img {
 	top: 50%; /* Pins top edge of the text div vertically center */
 	-webkit-transform: translateY(-50%);
 	        transform: translateY(-50%); /* Pulls text content up half of its own height for centering effect */
+	}
+
+.large-hero__title {
+	font-weight: 300;
+	color: #2f5572;
+	font-size: 4.8rem;
+	margin: 0;
+	}
+
+.large-hero__subtitle {
+	font-weight: 300;
+	color: #2f5572;
+	font-size: 2.9rem;
+	margin: 0;
+	}
+
+.large-hero__description {
+		color: #FFF;
+		font-size: 1.875rem;
+		font-weight: 100;
+
+		text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.1);
+
+		/* To break description onto 2 lines
+		***********************************/
+		max-width: 30rem;
+
+		/* To center align description horizontally
+		******************************************/
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+.btn {
+	background-color: #2f5572;
+	color: #fff;
+	text-decoration: none;
+
+	/* To add padding to button element
+	**********************************/
+	padding: .75rem 1.2rem;
+
+	/* So other elements respect the new additional of padding 
+	*********************************************************/
+	display: inline-block;
 }
 
+.btn--orange {
+		background-color: #d59541;
+	}
+
+.btn--large {
+		font-size: 1.25rem;
+		padding: 1.1rem 1.9rem;
+	}

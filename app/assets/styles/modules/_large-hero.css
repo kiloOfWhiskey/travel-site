@@ -1,8 +1,9 @@
+
+
 .large-hero {
 	position: relative;
-}
 
-.large-hero__text-content {
+	&__text-content {
 	position: absolute; /* Allows text to be on top of image */
 	left: 0; /* Pins text to left side */
 
@@ -15,4 +16,39 @@
 	*****************************/
 	top: 50%; /* Pins top edge of the text div vertically center */
 	transform: translateY(-50%); /* Pulls text content up half of its own height for centering effect */
+	}
+
+	&__title {
+	font-weight: 300;
+	color: $mainBlue;
+	font-size: 4.8rem;
+	margin: 0;
+	}
+
+	&__subtitle {
+	font-weight: 300;
+	color: $mainBlue;
+	font-size: 2.9rem;
+	margin: 0;
+	}
+
+	&__description {
+		color: #FFF;
+		font-size: 1.875rem;
+		font-weight: 100;
+
+		text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.1);
+
+		/* To break description onto 2 lines
+		***********************************/
+		max-width: 30rem;
+
+		/* To center align description horizontally
+		******************************************/
+		margin-left: auto;
+		margin-right: auto;
+	}
 }
+
+
+
